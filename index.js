@@ -39,7 +39,7 @@ async function askName() {
 async function question() {
     const answers = await inquirer.prompt({
         name: 'question_1',
-        list: 'list',
+        type: 'list',
         message: 'Javascript was created in 10 days, then released on \n',
         choices: [
             'May 23rd, 1995',
